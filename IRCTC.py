@@ -4,7 +4,7 @@ class train:
         self.seats = seats
         self.fare = fare
         
-    print("Welcome to the irctc!")
+    print("Welcome to the Ticket Counter!")
     
     def getstatus(self):
         print("********************************************************")
@@ -19,7 +19,7 @@ class train:
             self.seats = self.seats-1
             
         else:
-            print("Sorry all seats are booked ! Kindly try for tatakl !")
+            print("Sorry all seats are booked !")
             
             
 memo = train("memo" , 100 , 50)
